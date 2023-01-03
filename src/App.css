@@ -1,5 +1,13 @@
 .App {
+  width: 100vw;
+  height: 100vh;
   text-align: center;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  box-shadow: 5px 10px 30px 10px green;
 }
 
 .App-logo {
@@ -35,4 +43,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main{
+  width: 98%;
+  height: 95%;
+  background-color: white  ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 98%;
+  height: 96%;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+.container-sub-one{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  width: 100%;
+  height:15%;
+  background-color: red;
+}
+
+.container-sub-two{
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  height: 75%;
+  background-color: blueviolet;
+}
+
+.container-sub-one-left{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  width: 20%;
+  height:100%;
+  background-color: yellow;
+}
+
+.container-sub-one-right{
+  display: flex;
+  flex-grow: 4;
+  flex-direction: row;
+  width: 80%;
+  height:100%;
+  background-color: red;
 }
