@@ -8,6 +8,7 @@
   justify-content: center;
   background-color: orange;
   box-shadow: 5px 10px 30px 10px green;
+  
 }
 
 .App-logo {
@@ -57,7 +58,7 @@
 .container{
   width: 98%;
   height: 96%;
-  background-color: skyblue;
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,16 +87,135 @@
   display: flex;
   flex-grow: 1;
   flex-direction: row;
-  width: 20%;
+  width: 10%;
   height:100%;
-  background-color: yellow;
+  background-color: blueviolet;
 }
 
 .container-sub-one-right{
   display: flex;
-  flex-grow: 4;
+  flex-grow: 8;
   flex-direction: row;
+  text-align: left;
+  justify-content: left;
+  font-size: 25px;
   width: 80%;
   height:100%;
+  background-color: blueviolet;
+  position: relative;
+}
+.container-sub-one-right-left{
+  display: flex;
+  flex-grow: 7;
+  justify-content: left;
+  align-items: center;
+  margin-top:10px ;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  width: 70%;
+  height: 70%;
+  background-color: blueviolet;
+  color: orange;
+  font-weight: bolder;
+  font-size:40px;
+  overflow:hidden;
+  position: relative;
+}
+.container-sub-one-right-right{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 3;
+  width: 30%;
+  height: 100%;
+  background-color: yellow;
+}
+.logo-image{
+  width: 100%;
+}
+.container-sub-one-right-right-one{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
   background-color: red;
+  color: orange;
+}
+
+.container-sub-one-right-right-two{
+  width: 40%;
+  height: 100%;
+  background-color: blueviolet;
+}
+
+.container-sub-one-right-right-one-left{
+  width: 50%;
+  height: 100%;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bolder;
+  overflow: hidden;
+  
+}
+.container-sub-one-right-right-one-right{
+  width: 50%;
+  height: 100%;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bolder;
+  overflow: hidden;
+  
+}
+@media (max-width:1000px){
+  .container-sub-one-right-left{
+    font-size: 40px;
+  }
+  .container-sub-one-right-right-one-left{
+    font-size: 22px;
+  }
+  .container-sub-one-right-right-one-right{
+    font-size: 18px;
+  }
+}
+
+@media (max-width:800px){
+  .container-sub-one-right-left{
+    font-size: 40px;
+  }
+  .container-sub-one-right-right-one-left{
+    font-size: 18px;
+  }
+  .container-sub-one-right-right-one-right{
+    font-size: 14px;
+  }
+}
+
+@media (max-width:600px){
+  .container-sub-one-right-left{
+    font-size: 30px;
+  }
+  .container-sub-one-right-right-one-left{
+    font-size: 15px;
+  }
+  .container-sub-one-right-right-one-right{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:400px){
+  .container-sub-one-right-left{
+    font-size: 20px;
+  }
+  .container-sub-one-right-right-one-left{
+    font-size: 10px;
+  }
+  .container-sub-one-right-right-one-right{
+    font-size: 7px;
+  }
 }
