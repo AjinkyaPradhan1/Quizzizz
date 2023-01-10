@@ -16,7 +16,9 @@ function App() {
                 </div>
                 <div class="container-sub-one-right-right">
                   <div class="container-sub-one-right-right-one">
-                    <div class="container-sub-one-right-right-one-left">Share</div>
+                    <div class="container-sub-one-right-right-one-left">
+                      <a href="share.html">Share</a>
+                    </div>
                     <div class="container-sub-one-right-right-one-right">Contact</div>
                   </div>
                   <div class="container-sub-one-right-right-two"></div>
